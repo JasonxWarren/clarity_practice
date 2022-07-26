@@ -7,7 +7,13 @@ requirements = []
 boot_contracts = ["pox", "costs-v2", "bns"]
 
 [project.cache_location]
-path = "./.requirements"
+path = ".requirements"
+[contracts.cargo]
+path = "contracts/cargo.clar"
+
+[contracts.functions]
+path = "contracts/functions.clar"
+
 [contracts.storing-data]
 path = "contracts/storing-data.clar"
 
