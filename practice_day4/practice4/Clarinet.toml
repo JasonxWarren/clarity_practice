@@ -11,8 +11,17 @@ path = ".requirements"
 [contracts.cargo]
 path = "contracts/cargo.clar"
 
+[contracts.divider-trait]
+path = "contracts/divider-trait.clar"
+
 [contracts.functions]
 path = "contracts/functions.clar"
+
+[contracts.math]
+path = "contracts/math.clar"
+
+[contracts.multiplier-trait]
+path = "contracts/multiplier-trait.clar"
 
 [contracts.storing-data]
 path = "contracts/storing-data.clar"
