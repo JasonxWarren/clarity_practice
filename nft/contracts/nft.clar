@@ -38,5 +38,7 @@
      (try! (stx-transfer? portion-of-total recipient WALLET_1))
      (try! (stx-transfer? portion-of-total recipient WALLET_2))
      (try! (nft-mint? my-nft id recipient))
+     (var-set last-token-id id)
+     (ok id)
     )
 )
